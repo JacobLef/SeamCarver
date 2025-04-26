@@ -1,7 +1,7 @@
-//NOTE : for unknown reasons, some tests work on one machine
-//but does not work on the other partner's machine
-//for this reason, there may be a few tests that fail, 
-//but are correct.
+// NOTE : depending the machine you are using, Color.RED is treated as either
+// (255, 255, 0) or (242, 242, 13), in terms of (RED, GREEN, BLUE) values. 
+// Thus, any tests which fail can due to a color mismatch, you can simply replace
+// the former with the latter or vice versa and they will pass.
 
 import java.awt.Color;
 import java.util.ArrayList;
