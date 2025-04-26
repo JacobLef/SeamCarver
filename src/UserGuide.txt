@@ -1,0 +1,31 @@
+* USER GUIDE *
+
+Welcome to the SeamCarver simulation. This is a program which will carve the most boring 'seams' out of an image, either vertical
+or horizontal depending on what the user has selected. 
+
+A 'seam' is a tree of nodes from either the left-most wall to the right-most wall or the top-most wall to the bottom-most wall. They
+are highlighted in red before being removed. The image is then re-sized accordingly.
+
+The simulation ends when there is only one horizontal or one vertical seam left to remove, so there is at least some image left. 
+
+The user is able to interact with the seam-carver simulation, as described below.
+
+NOTE: all commands *must* be lower-case
+
+Space-bar : user can pause the simulation
+\
+lowercase-v (v) : switches the seam-carver simulation to only carve vertical seams and to not carve seams at random--i.e., not switch between vertical and 
+horizontal at random
+
+lowercase-h (h) : switches the seam-carver simulation to only carve horizontal seams and to not carve seams at random--i.e., not switch between vertical and
+horizontal at random.
+
+lowercase-q (q) : changes the energy 'mode' to 0 for different visual effects.
+
+lowercase-r (r) : switches the seam-carver simulation to randomly choose between carving a vertical or horizontal
+seam each time one is found.
+
+lowercase-w (w) : changes the energy 'mode' to 1 for different visual effects.
+
+lowercase-u (u) : undoes the most recent seam carved (adds it back). This action can be repeated so long as there
+are seam-removals to undo. Once there are no seam removals to undo, this keyword does nothing.
